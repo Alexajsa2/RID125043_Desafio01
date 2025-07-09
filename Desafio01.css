@@ -1,0 +1,260 @@
+html {
+    max-width: 100%;
+    font-family: Montserrat;
+}
+
+#Cabeçalho{
+    background-color:#02A28F;;
+    height: 70px;
+    margin-bottom: 3rem;
+}
+
+#Cabeçalho h1{
+    height: 70px;
+    padding-left: 12%;
+    font-family: Montserrat;
+    color: #FFFFFF;
+    font-size: 2.25rem;
+    display: flex;
+    align-items: center;
+}
+#Posts{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 1.5rem;
+    margin-top: 10px;
+}
+#Development{
+    width: 76%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    margin: 2rem auto;
+    gap: 20px;
+}
+
+.Post{
+    width: 100%;
+    height: 100%;
+    display: grid;
+    box-shadow: 0px 10px 20px 0px #0000001A;
+    border-radius: 1rem;
+}
+
+.Post img{
+    width: 100%;
+    height: 100%;
+}
+
+.Subtitle1{
+    color:#FFFFFF;
+    font-weight: 700;
+    font-size: 20px;
+    height: 40px;
+    justify-content: space-between;
+    border-radius: 8px;
+    background: #02A28F;
+    padding-top: 1rem;
+    padding-right: 1.5rem;
+    padding-bottom: 1rem;
+    padding-left: 1.5rem;
+    display: grid;
+    grid-template-columns: 8fr 1fr;
+    display: flex;
+    align-items: center;
+}
+
+.Subtitle1 a{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 100%;
+}
+
+#Img_Present{
+    background: linear-gradient(180deg, rgba(102, 102, 102, 0) 0%, #000000 100%), url(./Pictures/City_Image.png.jpg);
+    background-size: contain;
+    border-radius: 10px;
+    margin-bottom: 25px;
+    height: 396px;
+}
+
+#TextImage{
+    font-family: Montserrat;
+    color: #FFFFFF;
+    list-style: none;
+    margin: 0px;
+    padding-left: 20px;
+    padding-top: 300px;
+}
+
+#TILine1{
+    font-weight: 400;
+    font-size: 16px;
+}
+#TILine2{
+    font-weight: 700;
+    font-size: 2rem;
+}
+#TILine3{
+    font-weight: 700;
+    font-size: 1rem;
+}
+#TILine3 span{
+    font-weight: 500;
+    font-size: 1rem;
+}
+
+.PostContent{
+    font-family: Montserrat;
+    padding: 0px 0px 0px 20px;
+}
+
+.PostContent h1{
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.PostContent h2{
+    font-weight: 400;
+    font-size: 14px;
+    letter-spacing: 0px;
+    margin: 8px 0px 0px 0px;
+}
+
+.PostContent h4 span{
+    font-weight: 700;
+    padding-right: 5px;
+}
+
+.PostContent h3{
+    font-weight: 400;
+    font-size: 14px;
+    color: #02A28F;
+}
+
+h4{
+    font-weight: 400;
+    font-size: 14px;
+    letter-spacing: 0px;
+    color: #616161;
+    margin: 5px 0px 0px 0px;
+    display: flex;
+    text-align: justify;
+    padding-bottom: 5px;
+}
+
+#footer{
+    display: flex;
+    justify-content: center;
+    height: 48px;
+    font-weight: 600;
+    font-size: 14px;
+    color: #FFFFFF;
+    background: #02A28F;
+}
+
+.Subtitle2{
+    color:#FFFFFF;
+    font-weight: 700;
+    font-size: 20px;
+    height: 48px;
+    border-radius: 10px;    
+    background: #02A28F;
+    display: flex;
+    align-items: center;
+    padding-left: 24px;
+    margin-bottom: 5px;
+}
+
+#Categories {
+    list-style: none;
+    padding: 0px;
+}
+
+#Categories li {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 6px;
+    font-weight: 600;
+    font-size: 16px;
+    letter-spacing: 0%;
+    color: #616161;
+}
+
+.MiniPosts{
+    width: 100%;
+    height: 96px;
+    border-radius: 10px;
+    box-shadow: 0px 10px 10px 0px #0000001A;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    display: flex;
+    align-items: center;
+}
+
+.MiniPosts ul{
+    padding-left: 5px;
+    margin-top: 0px;
+}
+
+.MiniPosts ul h2{
+    font-size: 14px;
+    margin-top: 0px;
+    margin-bottom: 5px;
+}
+
+.SecondDivision{
+    width: 100%;
+}
+
+#PostsPopulares{
+    height: 396px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 10px;
+    margin-bottom: 25px;
+}
+
+@media (max-width: 768px) {
+    #Development{
+    width: 100%;
+    height: max-content;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    margin: 0 auto;
+    gap: 20px;
+    }
+    #Posts{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr;
+        gap: 24px;
+        margin-top: 10px;
+    }
+    .Post{
+        width: 100%;
+        height: 100%;
+    }
+    #TextImage{
+        padding-left: 20px;
+        padding-top: 250px;
+    }
+    .SecondDivision{
+    width: 100%;
+    }
+    .Subtitle1{
+        height: 24px;
+    }
+    #Cabeçalho h1{
+        font-size: 24px;
+        padding: 0px;
+    }  
+    #Cabeçalho{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
