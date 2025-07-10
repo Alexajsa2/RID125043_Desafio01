@@ -1,17 +1,21 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
+    <meta charset="UTF-8">
+    <title>The DEV News | Blog responsivo</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <link rel="stylesheet" href="Desafio01.css">
-    <div id="Cabeçalho">
-        <h1>The DEV News</h1>
-    </div>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body>
-    <nav id="Development">
+    <header id="Cabeçalho">
+        <h1>The DEV News</h1>
+    </header>
+
+    <main>
         <div id="FirstDivision">
             <section id="Img_Present">
                 <ul id="TextImage">    
@@ -24,87 +28,89 @@
                 <div>Posts mais recentes</div>
                 <div><a href="">Ver todos</a></div>
             </section>
-            <div id="Posts">
-                <section class="Post">
-                    <div><img src="./Pictures/Banner_DevMobile.png"></div>
+            <section id="Posts">
+                <article class="Post">
+                    <img src="./Pictures/Banner_DevMobile.png" alt="Imagem Desenvolvimento MOB">
                     <div class="PostContent">
-                        <h3>desenvolvimento</h3>
-                        <h1>Desenvolvimento Mobile</h1>
-                        <h4><span>By</span> Fabio Tetsuo</h4>
-                        <h2>Lorem ipsum dolor sit amet consectetur. In vitae urna commodo amet congue integer dapibus. Interdum semper mauris convallis fusce enim odio. Vitae montes ridiculus felis.</h2>
-                        <h4>22 Agosto 2022</h4>
+                        <p>desenvolvimento</p>
+                        <h2>Desenvolvimento Mobile</h2>
+                        <address><span>By</span> Fabio Tetsuo</address>
+                        <div class="TextPost">Lorem ipsum dolor sit amet consectetur. In vitae urna commodo amet congue integer dapibus. Interdum semper mauris convallis fusce enim odio. Vitae montes ridiculus felis.</div>
+                        <time datetime="2022-08-22">22 Agosto 2022</time>
                     </div>
-                </section>
-                <section class="Post">
-                    <div><img src="./Pictures/Banner_Balance.png"></div>
+                </article>
+                <article class="Post">
+                    <img src="./Pictures/Banner_Balance.png" alt="Imagem Saude">
                     <div class="PostContent">
-                        <h3>saude</h3>
-                        <h1>Balancear vida profissional e pessoal</h1>
-                        <h4><span>By</span> Ridho Satriawan</h4>
-                        <h2>Lorem ipsum dolor sit amet consectetur. Et consectetur at consectetur sed nisl tempor.</h2>
-                        <h4>22 Agosto 2022</h4>
+                        <p>saude</p>
+                        <h2>Balancear vida profissional e pessoal</h2>
+                        <address><span>By</span> Ridho Satriawan</address>
+                        <div class="TextPost">Lorem ipsum dolor sit amet consectetur. Et consectetur at consectetur sed nisl tempor.</div>
+                        <time datetime="2022-08-22">22 Agosto 2022</time>
                     </div>
-                </section>
-                <section class="Post">
-                    <div><img src="./Pictures/Banner_Configuration_VsCode.png"></div>
+                </article>
+                <article class="Post">
+                    <img src="./Pictures/Banner_Configuration_VsCode.png" alt="Imagem Desenvolvimento">
                     <div class="PostContent">
-                        <h3>desenvolvimento</h3>
-                        <h1>Configurando VSCode</h1>
-                        <h4><span>By</span> Fabio Tetsuo</h4>
-                        <h2>Lorem ipsum dolor sit amet consectetur. Erat interdum tortor ac sagittis id a etiam. Tellus vitae arcu dignissim massa aliquam vel tellus. Ipsum massa arcu nulla sed purus in ac.</h2>
-                        <h4>22 Agosto 2022</h4>
+                        <p>desenvolvimento</p>
+                        <h2>Configurando VSCode</h2>
+                        <address><span>By</span> Fabio Tetsuo</address>
+                        <div class="TextPost">Lorem ipsum dolor sit amet consectetur. Erat interdum tortor ac sagittis id a etiam. Tellus vitae arcu dignissim massa aliquam vel tellus. Ipsum massa arcu nulla sed purus in ac.</div>
+                        <time datetime="2022-08-22">22 Agosto 2022</time>
                     </div>
-                </section>
-                <section class="Post">
-                    <div><img src="./Pictures/Banner_Monitor.png"></div>
+                </article>
+                <article class="Post">
+                    <img src="./Pictures/Banner_Monitor.png" alt="Imagem Produtividade">
                     <div class="PostContent">
-                        <h3>produtividade</h3>
-                        <h1>2 monitores ou 1 ultrawide?</h1>
-                        <h4><span>By</span> Fulano da Silva</h4>
-                        <h2>Lorem ipsum dolor sit amet consectetur. Arcu tellus adipiscing sagittis tristique. Eget molestie posuere enim pretium venenatis nunc ligula donec a. Velit senectus amet nulla.</h2>
-                        <h4>22 Agosto 2022</h4>
+                        <p>produtividade</p>
+                        <h2>2 monitores ou 1 ultrawide?</h2>
+                        <address><span>By</span> Fulano da Silva</address>
+                        <div class="TextPost">Lorem ipsum dolor sit amet consectetur. Arcu tellus adipiscing sagittis tristique. Eget molestie posuere enim pretium venenatis nunc ligula donec a. Velit senectus amet nulla.</div>
+                        <time datetime="2022-08-22">22 Agosto 2022</time>
                     </div>
-                </section>
-            </div>
-        </div>
-        <div class="SecondDivision">
-            <section id="PostsPopulares">
-                <div class="Subtitle2">Posts populares</div>
-                <div class="MiniPosts">
-                    <img src="./Pictures/ImageDev.png">
-                    <ul>
-                        <h2>Desevolvimento atual</h2>
-                        <h4>22 Agosto 2022</h4>
-                    </ul>
-                </div>
-                <div class="MiniPosts">
-                    <img src="./Pictures/ImageGit.png">
-                    <ul>
-                        <h2>GitLab vs GitHub</h2>
-                        <h4>22 Agosto 2022</h4>
-                    </ul>
-                </div>
-                <div class="MiniPosts">
-                    <img src="./Pictures/ImageCoffee.png">
-                    <ul>
-                        <h2>Café atrapalha?</h2>
-                        <h4>22 Agosto 2022</h4>
-                    </ul>
-                </div>
+                </article>
             </section>
+        </div>
+        <aside class="SecondDivision">
+            <section id="PostsPopulares">
+                <h2 class="Subtitle2">Posts populares</h2>
+                <article class="MiniPosts">
+                    <img src="./Pictures/ImageDev.png" alt="Post DEV">
+                    <div>
+                        <h3>Desevolvimento atual</h3>
+                        <time datetime="2022-08-22">22 Agosto 2022</time>
+                    </div>
+                </article>
+                <article class="MiniPosts">
+                    <img src="./Pictures/ImageGit.png" alt="Post GitHub">
+                    <div>
+                        <h3>GitLab vs GitHub</h3>
+                        <time datetime="2022-08-22">22 Agosto 2022</time>
+                    </div>
+                </article>
+                <article class="MiniPosts">
+                    <img src="./Pictures/ImageCoffee.png" alt="Post Cafe">
+                    <div>
+                        <h3>Café atrapalha?</h3>
+                        <time datetime="2022-08-22">22 Agosto 2022</time>
+                    </div>
+                </article>
+            </section>
+
             <section>
-                <div class="Subtitle2">Categorias</div>
+                <h2 class="Subtitle2">Categorias</h2>
                 <ul id="Categories">
-                    <li class="Category">> saude <span>(1)</span></li>
-                    <li class="Category">> desenvolvimento <span>(2)</span></li>
-                    <li class="Category">> produtividade <span>(2)</span></li>
-                    <li class="Category">> opiniao<span>(1)</span></li>
+                    <li class="Category">&gt; saude <span>(1)</span></li>
+                    <li class="Category">&gt; desenvolvimento <span>(2)</span></li>
+                    <li class="Category">&gt; produtividade <span>(2)</span></li>
+                    <li class="Category">&gt; opiniao<span>(1)</span></li>
                 </ul>
             </section>
-        </div>
-    </nav>
+        </aside>
+    </main>
+
+    <footer id="footer">
+        <p>Copyright@The Dev News</p>
+    </footer>
 </body>
-<footer id="footer">
-    <p>Copyright@The Dev News</p>
-</footer>
 </html>

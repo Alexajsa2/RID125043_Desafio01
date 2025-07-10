@@ -5,12 +5,12 @@ html {
 
 #Cabeçalho{
     background-color:#02A28F;;
-    height: 70px;
+    height: 4.375rem;
     margin-bottom: 3rem;
 }
 
 #Cabeçalho h1{
-    height: 70px;
+    height: 4.375rem;
     padding-left: 12%;
     font-family: Montserrat;
     color: #FFFFFF;
@@ -23,22 +23,22 @@ html {
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
     gap: 1.5rem;
-    margin-top: 10px;
+    margin-top: 0.625rem;
 }
-#Development{
+main{
     width: 76%;
     height: 100%;
     display: grid;
     grid-template-columns: 2fr 1fr;
     margin: 2rem auto;
-    gap: 20px;
+    gap: 1.25rem;
 }
 
 .Post{
     width: 100%;
     height: 100%;
     display: grid;
-    box-shadow: 0px 10px 20px 0px #0000001A;
+    box-shadow: 0 0.625rem 1.25rem 0 #0000001A;
     border-radius: 1rem;
 }
 
@@ -50,10 +50,10 @@ html {
 .Subtitle1{
     color:#FFFFFF;
     font-weight: 700;
-    font-size: 20px;
-    height: 40px;
+    font-size: 1.25rem;
+    height: 2.5rem;
     justify-content: space-between;
-    border-radius: 8px;
+    border-radius: 0.5rem;
     background: #02A28F;
     padding-top: 1rem;
     padding-right: 1.5rem;
@@ -67,30 +67,30 @@ html {
 
 .Subtitle1 a{
     font-weight: 500;
-    font-size: 14px;
+    font-size: 0.875rem;
     line-height: 100%;
 }
 
 #Img_Present{
     background: linear-gradient(180deg, rgba(102, 102, 102, 0) 0%, #000000 100%), url(./Pictures/City_Image.png.jpg);
     background-size: contain;
-    border-radius: 10px;
-    margin-bottom: 25px;
-    height: 396px;
+    border-radius: 0.625rem;
+    margin-bottom: 1.56rem;
+    height: 24.75rem;
 }
 
 #TextImage{
     font-family: Montserrat;
     color: #FFFFFF;
     list-style: none;
-    margin: 0px;
-    padding-left: 20px;
-    padding-top: 300px;
+    margin: 0;
+    padding-left: 1.25rem;
+    padding-top: 18.75rem;
 }
 
 #TILine1{
     font-weight: 400;
-    font-size: 16px;
+    font-size: 1rem;
 }
 #TILine2{
     font-weight: 700;
@@ -107,49 +107,60 @@ html {
 
 .PostContent{
     font-family: Montserrat;
-    padding: 0px 0px 0px 20px;
-}
-
-.PostContent h1{
-    font-weight: 700;
-    font-size: 20px;
+    padding: 0px 0px 0px 1.25rem;
 }
 
 .PostContent h2{
-    font-weight: 400;
-    font-size: 14px;
-    letter-spacing: 0px;
-    margin: 8px 0px 0px 0px;
-}
-
-.PostContent h4 span{
     font-weight: 700;
-    padding-right: 5px;
+    font-size: 1.25rem;
 }
 
-.PostContent h3{
+.TextPost {
     font-weight: 400;
-    font-size: 14px;
+    font-size: 0.875rem;
+    letter-spacing: 0;
+    margin: 0.5rem 0 0 0;
+}
+
+.PostContent address span{
+    font-weight: 700;
+    padding-right: 0.3125rem;
+}
+
+.PostContent p{
+    font-weight: 400;
+    font-size: 0.875rem;
     color: #02A28F;
 }
 
-h4{
+address{
     font-weight: 400;
-    font-size: 14px;
-    letter-spacing: 0px;
+    font-size: 0.875rem;
+    letter-spacing: 0;
     color: #616161;
-    margin: 5px 0px 0px 0px;
+    margin: 0.3125rem 0 0 0;
     display: flex;
     text-align: justify;
-    padding-bottom: 5px;
+    padding-bottom: 0.3125rem;
+}
+
+time{
+    font-weight: 400;
+    font-size: 0.875rem;
+    letter-spacing: 0px;
+    color: #616161;
+    margin: 0.3125rem 0 0 0;
+    display: flex;
+    text-align: justify;
+    padding-bottom: 0.3125rem;
 }
 
 #footer{
     display: flex;
     justify-content: center;
-    height: 48px;
+    height: 3rem;
     font-weight: 600;
-    font-size: 14px;
+    font-size: 0.875rem;
     color: #FFFFFF;
     background: #02A28F;
 }
@@ -157,51 +168,51 @@ h4{
 .Subtitle2{
     color:#FFFFFF;
     font-weight: 700;
-    font-size: 20px;
-    height: 48px;
-    border-radius: 10px;    
+    font-size: 1.25rem;
+    height: 3rem;
+    border-radius: 0.625rem;    
     background: #02A28F;
     display: flex;
     align-items: center;
-    padding-left: 24px;
-    margin-bottom: 5px;
+    padding-left: 1.5rem;
+    margin-bottom: 0.3125rem;
 }
 
 #Categories {
     list-style: none;
-    padding: 0px;
+    padding: 0;
 }
 
 #Categories li {
     display: flex;
     justify-content: space-between;
-    margin-bottom: 6px;
+    margin-bottom: 0.375rem;
     font-weight: 600;
-    font-size: 16px;
-    letter-spacing: 0%;
+    font-size: 1rem;
+    letter-spacing: 0;
     color: #616161;
 }
 
 .MiniPosts{
     width: 100%;
-    height: 96px;
-    border-radius: 10px;
-    box-shadow: 0px 10px 10px 0px #0000001A;
+    height: 6rem;
+    border-radius: 0.625rem;
+    box-shadow: 0 0.625rem 0.625rem 0 #0000001A;
     display: grid;
     grid-template-columns: 1fr 1fr;
     display: flex;
     align-items: center;
 }
 
-.MiniPosts ul{
-    padding-left: 5px;
-    margin-top: 0px;
+.MiniPosts div{
+    padding-left: 0.3125rem;
+    margin-top: 0;
 }
 
-.MiniPosts ul h2{
-    font-size: 14px;
-    margin-top: 0px;
-    margin-bottom: 5px;
+.MiniPosts div h2{
+    font-size: 0.875rem;
+    margin-top: 0;
+    margin-bottom: 0.3125rem;
 }
 
 .SecondDivision{
@@ -209,12 +220,12 @@ h4{
 }
 
 #PostsPopulares{
-    height: 396px;
+    height: 24.75rem;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    gap: 10px;
-    margin-bottom: 25px;
+    gap: 0.625rem;
+    margin-bottom: 1.5625rem;
 }
 
 @media (max-width: 768px) {
@@ -225,32 +236,32 @@ h4{
     grid-template-columns: 1fr;
     grid-template-rows: auto;
     margin: 0 auto;
-    gap: 20px;
+    gap: 1.25rem;
     }
     #Posts{
         display: grid;
         grid-template-columns: 1fr;
         grid-template-rows: 1fr 1fr 1fr 1fr;
-        gap: 24px;
-        margin-top: 10px;
+        gap: 1.5rem;
+        margin-top: 0.625rem;
     }
     .Post{
         width: 100%;
         height: 100%;
     }
     #TextImage{
-        padding-left: 20px;
-        padding-top: 250px;
+        padding-left: 1.25rem;
+        padding-top: 15.625rem;
     }
     .SecondDivision{
     width: 100%;
     }
     .Subtitle1{
-        height: 24px;
+        height: 1.5rem;
     }
     #Cabeçalho h1{
-        font-size: 24px;
-        padding: 0px;
+        font-size: 1.5rem;
+        padding: 0;
     }  
     #Cabeçalho{
         display: flex;
