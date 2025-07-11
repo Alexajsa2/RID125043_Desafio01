@@ -107,7 +107,7 @@ main{
 
 .PostContent{
     font-family: Montserrat;
-    padding: 0px 0px 0px 1.25rem;
+    padding: 0 0 0 1.25rem;
 }
 
 .PostContent h2{
@@ -147,7 +147,7 @@ address{
 time{
     font-weight: 400;
     font-size: 0.875rem;
-    letter-spacing: 0px;
+    letter-spacing: 0;
     color: #616161;
     margin: 0.3125rem 0 0 0;
     display: flex;
@@ -229,14 +229,14 @@ time{
 }
 
 @media (max-width: 768px) {
-    #Development{
-    width: 100%;
-    height: max-content;
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: auto;
-    margin: 0 auto;
-    gap: 1.25rem;
+    main{
+        width: 100%;
+        height: max-content;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
+        margin: 0 auto;
+        gap: 1.25rem;
     }
     #Posts{
         display: grid;
